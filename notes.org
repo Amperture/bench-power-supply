@@ -1,0 +1,17 @@
+* Rules
+  1. The following rules are to be considered "...of thumb." They can, and likely will, be broken. That does not mean they shouldn't be strived for.
+  2. Dual rail
+  3. Adjustable Current: 0 -> 5A
+  4. Adjustable Voltage: 3 -> 24VDC
+  5. Runs off line voltage
+  6. Transforming and Rectification to be designed.
+     1. But willing to flex in actual hardware. Line Voltage is still terrifying as all get out
+  7. 
+* Parts to Consider 
+** Regulators
+   - [[http://www.mouser.com/ProductDetail/Texas-Instruments/LM338T-NOPB/?qs=sGAEpiMZZMvu8NZDyZ4K0czVwi%2feZmTa][LM338]]
+   - LM317 w/ Power Transistor
+** Rectifiers
+   - [[http://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/GBJL1010-BP/?qs=sGAEpiMZZMtQ8nqTKtFS%2fADaVo9dzMRdy4o13hiUnpMRPSnRi3wL1w%3d%3d][GBJL1010-BP]] 10A Full Bridge Rectifier
+   - [[http://www.mouser.com/ProductDetail/NXP-Semiconductors/BYC10-600P/?qs=sGAEpiMZZMtbRapU8LlZDxEt9%2fMvjNSENF5OTuecLIiTAJC8egTnHw%3d%3d][BYC10-600P]] 10A Power Diode
+   - [[http://www.mouser.com/ProductDetail/Power-Integrations/LQA20T150C/?qs=sGAEpiMZZMtbRapU8LlZDwc9H6K8nLfVa%252bZKtuivDH7SkDBc4IjuHw%3d%3d][LQA20N150C]] 10A Dual Power Diode
