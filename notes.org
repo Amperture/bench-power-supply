@@ -6,7 +6,6 @@
   5. Runs off line voltage
   6. Transforming and Rectification to be designed.
      1. But willing to flex in actual hardware. Line Voltage is still terrifying as all get out
-  7. 
 * Parts to Consider 
 ** Regulators
    - [[http://www.mouser.com/ProductDetail/Texas-Instruments/LM338T-NOPB/?qs=sGAEpiMZZMvu8NZDyZ4K0czVwi%2feZmTa][LM338]]
